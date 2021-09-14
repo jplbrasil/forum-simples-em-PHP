@@ -1,0 +1,32 @@
+Fórum de Discussão Para Web
+---------------------------
+
+Este fórum foi desenvolvido para ser utilizado pela turma de Sistemas de Informação da Puc de Contagem.
+
+É composto por um site a partir de onde é possível enviar peguntas e respostas e exibí-las no site como links de forma administrável.
+
+Como Instalar?
+--------------
+
+Para instalá-lo, será necessário um micro com Linux, Apache, PHP e MySQL.
+
+a) Copie os arquivos fonte para uma pasta que possa ser lida pelo Apache.
+
+Exemplo: /home/httpd/html/forum
+
+b) Crie uma base de dados chamada "FORUM" no banco de dados MySQL.
+
+c) Configure o usuário e senha para acessar o banco de dados no arquivo "header.php".
+
+d) Por segurança, altere a senha do administrador do site no arquivo "admin.php". A senha vem pré-configurada como "admin".
+
+e) Acesse o site (http://localhost/forum), acesse a área de administração, e informe a senha correta de administrador. Quando a página de administração se abrir, você verá três links para criação das tabelas que serão utilizadas para armazenar as perguntas e respostas dos usuários do site. Clique sobre os links para criar as tabelas.
+
+E fim. O site deverá estar funcionando.
+
+Desenvolvimento e Dúvidas
+-------------------------
+
+Desenvolvido por João Paulo de Lima
+www.jpl.cjb.net
+jplbrasil@bol.com.br (don't send me spans) :)
